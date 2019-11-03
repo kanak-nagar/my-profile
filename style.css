@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	background-color: #f1d4d4;
+	color:  #484c7f;
+	font-family: 'Lora', serif;
+}
+h1 {
+	font-size= 16px;
+	font-family: 'Playfair Display', serif;
+	color: #484c7f;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+  	color: #484c7f;
+	transition: color 0.3s ease;
+	font-size: 30px;
+}
+img{
+	border-radius: 40%; 
+}
+
+.img-bordered {
+  border: 5px solid #484c7f;
+}
+
+a:hover {
+  	color: blue;
+  	text-decoration: none;
+}
+
+div {
+background: #fff1e9;                        
+padding: 10px;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.3);  
+border:1px dotted #484c7f;
+border-width: 10px;
+margin-top: 80px;
+margin-bottom: 80px;
+margin-left: 300px;
+margin-right: 300px;
+}
+
+.card-white {
+	background :#fff1e9;
+	padding: 30px;
+	border:1px dotted #484c7f;
+	border-width:10px;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px; 
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-blue {
+	background-color:#f1d4d4;
+	border-radius: 4px;
+	padding:12px 17px;
+	color:rgb(0,0,0);
+	border-width: 50px;
+	align-items: center; 
+}
+
+
+
+
